@@ -1,10 +1,19 @@
 # About Me
 
+# Hey, I'm Shawn.
 
-**MsShawnP/MsShawnP** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a consultant at Lailara LLC in Kentucky. Most of my work is data hygiene, custom reporting, and helping clients make sense of whatever's in their spreadsheets and CRMs. I've spent 20+ years doing IT project management and analytics — a lot of that in incentive programs and fulfillment operations.
 
-Here are some ideas to get you started:
+I'm not a software engineer. I build tools when I need something that doesn't exist yet, and I put them here so other people can use them too.
 
-- 🔭 I’m currently working on SOAR  Jan 2025 cohort pre-work.
-- 🌱 I’m currently learning how to use Git.
+## Projects
 
+- **[Data Hygiene Auditor](https://github.com/MsShawnP/Data-Hygiene-Auditor)** — Python CLI that audits Excel files for mixed formats, misused fields, placeholder floods, and phantom duplicates. Outputs HTML, Excel, and PDF reports.
+
+## Tools I Work With
+
+Python, Power BI, Crystal Reports, Excel (the serious kind), SQL
+
+## Elsewhere
+
+- [LinkedIn](https://linkedin.com/in/shawn-phillips-b383b3149)

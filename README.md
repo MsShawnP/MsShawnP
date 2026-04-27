@@ -1,5 +1,7 @@
 # About Me
 
+Most of my work happens in client systems and private repos. The public repos here are portfolio pieces, not my day-to-day output.
+
 **Lailara LLC · Director of Operations, Chief Solutions Architect at Incentive Insights · Data hygiene and reporting for transaction, incentive, and product data**
 
 I clean, validate, and build the reporting layer for the systems your business actually runs on — the hygiene work that sits upstream of fulfillment, payments, and analytics, so the data flowing through is already right.
@@ -18,6 +20,8 @@ Twenty-five years in incentive fulfillment and operational data. The last twenty
 ---
 
 ## Portfolio
+
+Three pieces, one practice: find what's wrong in someone else's data, and make it legible to whoever has to make a decision based on it.
 
 ### [online-retail-analysis](https://github.com/MsShawnP/online-retail-analysis)
 Acquisition due diligence portfolio piece. UCI Online Retail II reframed as commercial DD across 23 Quarto reports — segment economics, customer-base trajectory, product concentration risk, demand forecasting via ETS, data integrity audit, and Q4 acquisition timing implications. Built in R + Quarto.

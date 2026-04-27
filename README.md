@@ -21,7 +21,7 @@ Twenty-five years in incentive fulfillment and operational data. The last twenty
 
 ## Portfolio
 
-Three pieces, one practice: find what's wrong in someone else's data, and make it legible to whoever has to make a decision based on it.
+The repos below are portfolio pieces. They cover different problems — acquisition due diligence on a public dataset, an Excel data-quality auditor, a column-trustworthiness scorer — and use different tools (R/Quarto, Python). The common thread is the kind of input I'm willing to start with: data that hasn't been cleaned, validated, or interpreted yet, where the deliverable is the work of figuring out what's there and presenting it to someone who needs to act on it. More pieces will land here over time.
 
 ### [online-retail-analysis](https://github.com/MsShawnP/online-retail-analysis)
 Acquisition due diligence portfolio piece. UCI Online Retail II reframed as commercial DD across 23 Quarto reports — segment economics, customer-base trajectory, product concentration risk, demand forecasting via ETS, data integrity audit, and Q4 acquisition timing implications. Built in R + Quarto.

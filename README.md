@@ -37,6 +37,9 @@ Product data validation tool for specialty food brands preparing for national re
 
 Try it live → https://msshawnp-gtin-validator-app-yz0mxn.streamlit.app/
 
+### [product-data-audit-queries](https://github.com/MsShawnP/product-data-audit-queries)
+SQL diagnostic queries for auditing product master data quality in specialty food and CPG companies preparing for national retail. 33 queries across 6 categories — GTIN/UPC validation, missing fields, data consistency, retailer readiness (Walmart, Costco, UNFI, Whole Foods), governance/staleness, and chargeback analysis. Built against a realistic fictional dataset (Cinderhaven Provisions). Built in SQL + Python.
+
 ---
 
 ## Background

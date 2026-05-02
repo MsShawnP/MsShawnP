@@ -32,6 +32,11 @@ Python CLI that audits Excel files for mixed formats, misused fields, placeholde
 ### [field-story-scorer](https://github.com/MsShawnP/field-story-scorer)
 Python CLI that scores every column in an Excel file across five data quality dimensions. Includes strict cell-level type detection that catches mixed-type columns pandas silently coerces.
 
+### [gtin-validator](https://github.com/MsShawnP/gtin-validator)
+Product data validation tool for specialty food brands preparing for national retail. Validates GTINs against GS1 standards with retailer-specific context (Walmart, Costco, UNFI, 1WorldSync), generates branded PDF reports, and includes a prioritized fix roadmap, case GTIN-14 generator, and product data completeness analysis. Deployed as a live Streamlit web app. Built in Python.
+
+Try it live → https://msshawnp-gtin-validator-app-yz0mxn.streamlit.app/
+
 ---
 
 ## Background
@@ -48,7 +53,7 @@ Python CLI that scores every column in an Excel file across five data quality di
 
 ## Tools
 
-Power BI, SQL, Python, R, Quarto, Crystal Reports, Excel (the serious kind), Claude Code
+Power BI, SQL, Python, R, Quarto, Crystal Reports, Excel (the serious kind), VS Code, Claude Code
 
 ---
 

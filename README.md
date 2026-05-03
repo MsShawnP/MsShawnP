@@ -23,6 +23,11 @@ Twenty-five years in incentive fulfillment and operational data. The last twenty
 
 The repos below are portfolio pieces. They cover different problems — acquisition due diligence on a public dataset, an Excel data-quality auditor, a column-trustworthiness scorer — and use different tools (R/Quarto, Python). The common thread is the kind of input I'm willing to start with: data that hasn't been cleaned, validated, or interpreted yet, where the deliverable is the work of figuring out what's there and presenting it to someone who needs to act on it. More pieces will land here over time.
 
+### [velocity-tool](https://github.com/MsShawnP/velocity-tool)
+Velocity decision tool for specialty food brands scaling into national retail. A CEO picks one of eight decisions — shelf defense, production planning, promo ROI, distribution expansion, distribution pruning, SKU rationalization, launch trajectory diagnostics, pricing power — and the tool surfaces the right velocity view to answer it. Built on a synthetic 90-SKU dataset with 1.2M rows of weekly scan data across Walmart, Costco, Whole Foods, regional chains, UNFI, and DTC. Includes retailer-specific pricing, promotional patterns, data-quality-driven chargebacks, and a full data generation pipeline. Built in Python + Streamlit.
+
+Try it live → https://velocity-tool.streamlit.app/
+
 ### [online-retail-analysis](https://github.com/MsShawnP/online-retail-analysis)
 Acquisition due diligence portfolio piece. UCI Online Retail II reframed as commercial DD across 23 Quarto reports — segment economics, customer-base trajectory, product concentration risk, demand forecasting via ETS, data integrity audit, and Q4 acquisition timing implications. Built in R + Quarto.
 
@@ -56,7 +61,7 @@ SQL diagnostic queries for auditing product master data quality in specialty foo
 
 ## Tools
 
-Power BI, SQL, Python, R, Quarto, Crystal Reports, Excel (the serious kind), VS Code, Claude Code
+Power BI, SQL, Python, R, Quarto, Crystal Reports, Excel (the serious kind), VS Code, Claude Code, Streamlit
 
 ---
 

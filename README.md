@@ -31,7 +31,7 @@ Try it live → https://velocity-tool.streamlit.app/
 ### [online-retail-analysis](https://github.com/MsShawnP/online-retail-analysis)
 Acquisition due diligence portfolio piece. UCI Online Retail II reframed as commercial DD across 23 Quarto reports — segment economics, customer-base trajectory, product concentration risk, demand forecasting via ETS, data integrity audit, and Q4 acquisition timing implications. Built in R + Quarto.
 
-### [Data Hygiene Auditor](https://github.com/MsShawnP/Data-Hygiene-Auditor)
+### [data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)
 Python CLI that audits Excel files for mixed formats, misused fields, placeholder floods, and phantom duplicates. Outputs HTML, Excel, and PDF reports.
 
 ### [field-story-scorer](https://github.com/MsShawnP/field-story-scorer)

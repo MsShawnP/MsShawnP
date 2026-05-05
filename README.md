@@ -29,7 +29,7 @@ Velocity decision tool for specialty food brands scaling into national retail. A
 Try it live → https://velocity-tool.streamlit.app/
 
 ### [online-retail-analysis](https://github.com/MsShawnP/online-retail-analysis)
-Acquisition due diligence portfolio piece. UCI Online Retail II reframed as commercial DD across 23 Quarto reports — segment economics, customer-base trajectory, product concentration risk, demand forecasting via ETS, data integrity audit, and Q4 acquisition timing implications. Built in R + Quarto.
+Acquisition due diligence portfolio piece. UCI Online Retail Dataset reframed as commercial DD — segment economics, customer-base trajectory, concentration risk, LTV modeling, and post-close action planning. Built in R + Quarto, deployed on Netlify. Live report → https://lailara-retail-analysis.netlify.app/
 
 ### [data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)
 Python CLI that audits Excel files for mixed formats, misused fields, placeholder floods, and phantom duplicates. Outputs HTML, Excel, and PDF reports.

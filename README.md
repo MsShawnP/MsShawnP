@@ -49,19 +49,19 @@ SQL diagnostic queries for auditing product master data quality in specialty foo
 
 ## Background
 
-**Current** — Director of Operations and Chief Solutions Architect at Incentive Insights (20+ years, still active). Founder, Lailara LLC.
+**Current** — DDirector of Operations and Chief Solutions Architect at Incentive Insights (20+ years, still active). Principal Consultant, Lailara LLC.
 
-**Prior** — Solution architect for the platform that became Incentive Insights. Four years at TCA Fulfillment Services, where I was the sole employee retained by the acquiring company to walk their teams through TCA's proprietary incentive operations platform.
+**Prior** — Solution architect for the platform that became Incentive Insights. Before that, four years at TCA Fulfillment Services, staying on through its acquisition to help the new team get up to speed on the platform.
 
-**Recent** — Contract work supporting large language model training and evaluation.
+**Recent** — Contract work auditing data quality for large language model training — reviewing and scoring response batches against accuracy, formatting, and domain knowledge standards.
 
-**Credentials** — Five HarvardX data science and Python/ML courses. Two Harvard Business School Online certificates.
+**Credentials** — HarvardX coursework in data science and Python/ML. Harvard Business School Online certificates in strategy execution and digital marketing strategy.
 
 ---
 
 ## Tools
 
-Power BI, SQL, Python, R, Quarto, Crystal Reports, Excel (the serious kind), VS Code, Claude Code, Streamlit
+Power BI, SQL, Python, R, Quarto, Crystal Reports, Excel (the serious kind), VS Code, Claude Code, Streamlit,Netlify
 
 ---
 

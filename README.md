@@ -21,9 +21,9 @@ Twenty-five years in incentive fulfillment and operational data. The last twenty
 
 ## Portfolio
 
-The repos below are portfolio pieces. They cover different problems — acquisition due diligence on a public dataset, an Excel data-quality auditor, a column-trustworthiness scorer — and use different tools (R/Quarto, Python). The common thread is the kind of input I'm willing to start with: data that hasn't been cleaned, validated, or interpreted yet, where the deliverable is the work of figuring out what's there and presenting it to someone who needs to act on it. More pieces will land here over time.
+The repos below are portfolio pieces. They range from a velocity decision tool for specialty food CEOs to acquisition due diligence on a public dataset, an Excel data-quality auditor, and product data validation tooling. Different problems, different tools (Python, Streamlit, R/Quarto, SQL). The common thread is the kind of input I'm willing to start with: data that hasn't been cleaned, validated, or interpreted yet, where the deliverable is the work of figuring out what's there and presenting it to someone who needs to act on it.
 
-### [velocity-tool](https://github.com/MsShawnP/velocity-tool)
+### [retail-velocity-decision-tool](https://github.com/MsShawnP/retail-velocity-decision-tool)
 Velocity decision tool for specialty food brands scaling into national retail. A CEO picks one of eight decisions — shelf defense, production planning, promo ROI, distribution expansion, distribution pruning, SKU rationalization, launch trajectory diagnostics, pricing power — and the tool surfaces the right velocity view to answer it. Built on a synthetic 90-SKU dataset with 1.2M rows of weekly scan data across Walmart, Costco, Whole Foods, regional chains, UNFI, and DTC. Includes retailer-specific pricing, promotional patterns, data-quality-driven chargebacks, and a full data generation pipeline. Built in Python + Streamlit.
 
 Try it live → https://velocity-tool.streamlit.app/

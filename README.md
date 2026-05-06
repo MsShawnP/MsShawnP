@@ -25,7 +25,7 @@ The repos below are portfolio pieces. They range from a velocity decision tool f
 #### [retail-velocity-decision-tool](https://github.com/MsShawnP/retail-velocity-decision-tool)
 Velocity decision tool for specialty food brands scaling into national retail. A CEO picks one of eight decisions — shelf defense, production planning, promo ROI, distribution expansion, distribution pruning, SKU rationalization, launch trajectory diagnostics, pricing power — and the tool surfaces the right velocity view to answer it. Includes a narrative deep dive ("The Charred Scallion Relish Problem") that traces one SKU through four decision modes, showing how a +15% YoY growth headline masked a 25% baseline velocity decline, $24,686 in wasted trade spend, and $723,842 in total hidden value destruction. Built on a synthetic 90-SKU dataset with 1.2M rows of weekly scan data across Walmart, Costco, Whole Foods, regional chains, UNFI, and DTC. Built in Python + Streamlit.
 
-**Try it live →[(https://velocity-tool.streamlit.app/)] (https://velocity-tool.streamlit.app/**
+**[Try it live →](https://velocity-tool.streamlit.app/)**
 
 ### Demonstrations
 
@@ -37,7 +37,7 @@ SQL diagnostic queries for auditing product master data quality in specialty foo
 #### [gtin-validator](https://github.com/MsShawnP/gtin-validator)
 Product data validation tool for specialty food brands preparing for national retail. Validates GTINs against GS1 standards with retailer-specific context (Walmart, Costco, UNFI, 1WorldSync), generates branded PDF reports, and includes a prioritized fix roadmap, case GTIN-14 generator, and product data completeness analysis. Built in Python + Streamlit.
 
-**Try it live →[(https://msshawnp-gtin-validator-app-yz0mxn.streamlit.app/)]https://msshawnp-gtin-validator-app-yz0mxn.streamlit.app/**
+**[Try it live →](https://msshawnp-gtin-validator-app-yz0mxn.streamlit.app/)**
 
 #### [data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)
 Python CLI that audits Excel files for mixed formats, misused fields, placeholder floods, and phantom duplicates. Outputs HTML, Excel, and PDF reports.

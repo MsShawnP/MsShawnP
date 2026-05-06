@@ -49,7 +49,7 @@ SQL diagnostic queries for auditing product master data quality in specialty foo
 
 ## Background
 
-**Current** — DDirector of Operations and Chief Solutions Architect at Incentive Insights (20+ years, still active). Principal Consultant, Lailara LLC.
+**Current** — Director of Operations and Chief Solutions Architect at Incentive Insights (20+ years, still active). Principal Consultant, Lailara LLC.
 
 **Prior** — Solution architect for the platform that became Incentive Insights. Before that, four years at TCA Fulfillment Services, staying on through its acquisition to help the new team get up to speed on the platform.
 

@@ -67,7 +67,7 @@ HarvardX coursework in data science and Python/ML. Harvard Business School Onlin
 
 ## Tools
 
-Python · SQL · R · Streamlit · Quarto · Power BI · Crystal Reports · Excel (the serious kind) · SQLite · Plotly · pandas · VS Code · Claude Code · Netlify
+Python · SQL · R · Shiny · Streamlit · Quarto · Power BI · Crystal Reports · Excel (the serious kind) · SQLite · Plotly · pandas · GitHub Pages · VS Code · Claude Code · Netlify
 
 ## How I Work
 

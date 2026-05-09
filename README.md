@@ -37,9 +37,9 @@ Interactive decision tool that makes retailer deduction losses visible and actio
 [Try it live →](https://retailer-deduction-recovery.msshawnp.workers.dev/)
 
 **[short-ship-cost](https://github.com/MsShawnP/short-ship-cost)**
-Interactive analysis tool that quantifies the full cost of short-shipping orders for a specialty food brand operating make-to-order with no inventory buffer. Calculates eight cost dimensions — lost revenue, OTIF fines, chargebacks, deauthorization, DTC cancellations, margin leakage, distributor returns, and triage labor — from the gap between original orders and what actually shipped. Parameter panel lets users adjust fine rates, thresholds, and margins and watch costs recalculate live. Buffer simulation shows cost recovery at increasing fill rates, including the deauthorization cliff at 90%. Exportable Economist-style PDF via print CSS. Built on synthetic order data against the Cinderhaven Provisions dataset. React + Python, hosted on Netlify.
+Interactive analysis tool that quantifies the full cost of short-shipping orders for a specialty food brand operating make-to-order with no inventory buffer. Calculates eight cost dimensions — lost revenue, OTIF fines, chargebacks, deauthorization, DTC cancellations, margin leakage, distributor returns, and triage labor — from the gap between original orders and what actually shipped. Parameter panel lets users adjust fine rates, thresholds, and margins and watch costs recalculate live. Buffer simulation shows cost recovery at increasing fill rates, including the deauthorization cliff at 90%. Exportable Economist-style PDF via print CSS. Built on synthetic order data against the Cinderhaven Provisions dataset. React + Python, hosted on Cloudflare Pages.
 
-[Try it live →](https://short-ship-cost.netlify.app/)
+[Try it live →](https://short-ship-cost.msshawnp.workers.dev/)
 
 ### Demonstrations
 

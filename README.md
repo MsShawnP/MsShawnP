@@ -31,6 +31,11 @@ Velocity decision tool for specialty food brands scaling into national retail. A
 
 [Try it live →](https://retail-velocity-decision-tool.streamlit.app/)
 
+**[short-ship-cost](https://github.com/MsShawnP/short-ship-cost)**
+Interactive analysis tool that quantifies the full cost of short-shipping orders for a specialty food brand operating make-to-order with no inventory buffer. Calculates eight cost dimensions — lost revenue, OTIF fines, chargebacks, deauthorization, DTC cancellations, margin leakage, distributor returns, and triage labor — from the gap between original orders and what actually shipped. Parameter panel lets users adjust fine rates, thresholds, and margins and watch costs recalculate live. Buffer simulation shows cost recovery at increasing fill rates, including the deauthorization cliff at 90%. Exportable Economist-style PDF via print CSS. Built on synthetic order data against the Cinderhaven Provisions dataset. React + Python, hosted on Netlify.
+
+[Try it live →](https://short-ship-cost.netlify.app/)
+
 ### Demonstrations
 
 **[product-data-audit-demo](https://github.com/MsShawnP/product-data-audit-demo)**
@@ -67,8 +72,8 @@ HarvardX coursework in data science and Python/ML. Harvard Business School Onlin
 
 ## Tools
 
-Python · SQL · R · Shiny · Streamlit · Quarto · Excel (the serious kind) · SQLite · Plotly · pandas · GitHub Pages · VS Code · Claude Code · Netlify
+Python · SQL · R · React · Shiny · Streamlit · Quarto · Excel (the serious kind) · SQLite · Plotly · pandas · GitHub Pages · VS Code · Claude Code · Netlify
 
 ## How I Work
 
-Fractional engagements only. Fixed-fee or monthly retainer. No timesheets, no hourly billing. I work on outcomes, not hours. Typical first engagement is a 4–6 week scoped audit with a written assessment and remediation plan. From there we decide whether an ongoing retainer makes sense.
+Fractional engagements only. Fixed-fee or monthly retainer. No timesheets, no hourly billing. I work on outcomes, not hours.

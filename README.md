@@ -31,6 +31,11 @@ Velocity decision tool for specialty food brands scaling into national retail. A
 
 [Try it live →](https://retail-velocity-decision-tool.streamlit.app/)
 
+**[retailer-deduction-recovery](https://github.com/MsShawnP/retailer-deduction-recovery)**
+Interactive decision tool that makes retailer deduction losses visible and actionable for a specialty food manufacturer. Traces every deduction through five compounding failures — no visibility, process gaps, weak evidence, inaccessible records, and missed dispute windows — and shows what's recoverable, what's preventable, and what each operational fix is worth. Ten connected views including Sankey flow with zoom-on-click, recovery simulation, cost-to-dispute filter, timeline pressure, and retailer scorecards. Built on synthetic data against the Cinderhaven Provisions dataset. React + Python, hosted on Cloudflare Pages.
+
+[Try it live →](https://retailer-deduction-recovery.msshawnp.workers.dev/)
+
 **[short-ship-cost](https://github.com/MsShawnP/short-ship-cost)**
 Interactive analysis tool that quantifies the full cost of short-shipping orders for a specialty food brand operating make-to-order with no inventory buffer. Calculates eight cost dimensions — lost revenue, OTIF fines, chargebacks, deauthorization, DTC cancellations, margin leakage, distributor returns, and triage labor — from the gap between original orders and what actually shipped. Parameter panel lets users adjust fine rates, thresholds, and margins and watch costs recalculate live. Buffer simulation shows cost recovery at increasing fill rates, including the deauthorization cliff at 90%. Exportable Economist-style PDF via print CSS. Built on synthetic order data against the Cinderhaven Provisions dataset. React + Python, hosted on Netlify.
 
@@ -72,7 +77,7 @@ HarvardX coursework in data science and Python/ML. Harvard Business School Onlin
 
 ## Tools
 
-Python · SQL · R · React · Shiny · Streamlit · Quarto · Excel (the serious kind) · SQLite · Plotly · pandas · GitHub Pages · VS Code · Claude Code · Netlify
+Python · SQL · R · React · Shiny · Streamlit · Quarto · Excel (the serious kind) · SQLite · Plotly · pandas · GitHub Pages · Cloudflare Pages · VS Code · Claude Code · Netlify
 
 ## How I Work
 

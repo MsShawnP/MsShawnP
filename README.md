@@ -67,7 +67,7 @@ The shared dataset behind the Cinderhaven Provisions portfolio. A fictional ~$25
 ### Due Diligence
 
 **[online-retail-analysis](https://github.com/MsShawnP/online-retail-analysis)**
-Acquisition due diligence portfolio piece. UCI Online Retail Dataset reframed as commercial DD — segment economics, customer-base trajectory, concentration risk, LTV modeling, and post-close action planning. Built in R + Quarto, deployed on Netlify. [Live report →](https://online-retail-analysis.netlify.app/)
+Acquisition due diligence portfolio piece. UCI Online Retail Dataset reframed as commercial DD — segment economics, customer-base trajectory, concentration risk, LTV modeling, and post-close action planning. Built in R + Quarto, deployed on Cloudflare Pages. [Live report →](https://online-retail-analysis.msshawnp.workers.dev/)
 
 ## Background
 

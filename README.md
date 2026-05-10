@@ -51,7 +51,7 @@ SQL diagnostic query library and fast HTML audit report that feeds the full prod
 **[gtin-validator](https://github.com/MsShawnP/gtin-validator)**
 Product data validation tool for specialty food brands preparing for national retail. Validates GTINs against GS1 standards with retailer-specific context (Walmart, Costco, UNFI, 1WorldSync), generates branded PDF reports, and includes a prioritized fix roadmap, case GTIN-14 generator, and product data completeness analysis. Built in Python + Streamlit.
 
-[Try it live →](https://gtin-validator.streamlit.app/)
+[Try it live →](https://msshawnp-gtin-validator-app-yz0mxn.streamlit.app/)
 
 **[data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)**
 Python CLI that audits Excel files for mixed formats, misused fields, placeholder floods, and phantom duplicates. Outputs HTML, Excel, and PDF reports.

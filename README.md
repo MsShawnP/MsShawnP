@@ -46,7 +46,7 @@ Try it live → https://short-ship-cost.msshawnp.workers.dev/
 
 ### Demonstrations
 
-**[product-data-audit-demo](https://github.com/MsShawnP/product-data-audit-demo)**
+**[product-data-audit-demo](https://github.com/MsShawnP/product-data-audit-demo)** (Archived)
 SQL diagnostic query library and fast HTML audit report that feeds the full product data readiness audit above. 53 queries covering GTIN/UPC validation, missing fields, retailer readiness, and chargeback analysis. Built against the Cinderhaven Data Platform (Postgres). SQL + Python.
 
 ### Data Quality Tools

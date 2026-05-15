@@ -17,17 +17,17 @@ Now building a second practice line: decision frameworks and tooling for special
 
 ## Portfolio
 
-The repos below are portfolio pieces. They range from a velocity decision tool for specialty food CEOs to acquisition due diligence on a public dataset, an Excel data-quality auditor, and product data validation tooling. Different problems, different tools (Python, Streamlit, R/Quarto, SQL). The common thread is the kind of input I'm willing to start with: data that hasn't been cleaned, validated, or interpreted yet, where the deliverable is the work of figuring out what's there and presenting it to someone who needs to act on it.
+The repos below are portfolio pieces. They range from a velocity decision tool for specialty food CEOs to acquisition due diligence on a public dataset, an Excel data-quality auditor, and product data validation tooling. Different problems, different tools (Python, Dash, React, R/Quarto, SQL). The common thread is the kind of input I'm willing to start with: data that hasn't been cleaned, validated, or interpreted yet, where the deliverable is the work of figuring out what's there and presenting it to someone who needs to act on it.
 
 ### Decision Frameworks
 
 **[product-data-health-audit](https://github.com/MsShawnP/product-data-health-audit)**
-Product data readiness audit for a specialty food brand scaling into national retail. Finds $361,000/year in quantifiable cost from data defects, traces every chargeback to the specific field that caused it, and shows that 27 hours of data entry eliminates the entire problem. Produces five artifacts from one pipeline: an interactive HTML report, a two-page executive tearsheet, a Monday Morning operational dashboard, an eight-tab Excel workbook with triage list and broker intake checklist, and a standalone Data Debt Calculator. Includes GS1 Sunrise 2027 and FSMA Rule 204 compliance analysis. Built in R, Quarto, SQLite, and Shiny.
+Product data readiness audit for a specialty food brand scaling into national retail. Finds $361,000/year in quantifiable cost from data defects, traces every chargeback to the specific field that caused it, and shows that 27 hours of data entry eliminates the entire problem. Produces five artifacts from one pipeline: an interactive HTML report, a two-page executive tearsheet, a Monday Morning operational dashboard, an eight-tab Excel workbook with triage list and broker intake checklist, and a standalone Data Debt Calculator. Includes GS1 Sunrise 2027 and FSMA Rule 204 compliance analysis. Built in R, Quarto, Postgres, and Shiny.
 
 [Landing page →](https://msshawnp.github.io/product-data-health-audit/) · [Data Debt Calculator →](https://lailarallc.shinyapps.io/data-debt-calculator/)
 
 **[retail-velocity-decision-tool](https://github.com/MsShawnP/retail-velocity-decision-tool)**
-Velocity decision tool for specialty food brands scaling into national retail. A CEO picks one of eight decisions — shelf defense, production planning, promo ROI, distribution expansion, distribution pruning, SKU rationalization, launch trajectory diagnostics, pricing power — and the tool surfaces the right velocity view to answer it. Includes a narrative deep dive ("The Charred Scallion Relish Problem") that traces one SKU through four decision modes, showing how a +15% YoY growth headline masked a 25% baseline velocity decline, $24,686 in wasted trade spend, and $723,842 in total hidden value destruction. Built on a synthetic 90-SKU dataset with 1.2M rows of weekly scan data across Walmart, Costco, Whole Foods, regional chains, UNFI, and DTC. Built in Python + Streamlit.
+Velocity decision tool for specialty food brands scaling into national retail. The default view is a portfolio health dashboard that surfaces risk indicators across every decision area. A CEO sees what needs attention immediately, then drills into the decision mode that answers it — shelf defense, production planning, promo ROI, distribution expansion, distribution pruning, SKU rationalization, launch trajectory diagnostics, or pricing power. Nine views total, each with a data grid, chart, and narrative insight. Built on a synthetic 90-SKU dataset with 1.2M rows of weekly scan data across Walmart, Costco, Whole Foods, regional chains, UNFI, and DTC. Python + Dash + AG Grid, hosted on Fly.io.
 
 [Try it live →](https://retail-velocity-decision-tool.fly.dev)
 
@@ -35,6 +35,9 @@ Velocity decision tool for specialty food brands scaling into national retail. A
 Interactive decision tool that makes retailer deduction losses visible and actionable for a specialty food manufacturer. Traces every deduction through five compounding failures — no visibility, process gaps, weak evidence, inaccessible records, and missed dispute windows — and shows what's recoverable, what's preventable, and what each operational fix is worth. Ten connected views including Sankey flow with zoom-on-click, recovery simulation, cost-to-dispute filter, timeline pressure, and retailer scorecards. Built on synthetic data against the Cinderhaven Provisions dataset. React + Python, hosted on Cloudflare Pages.
 
 [Try it live →](https://retailer-deduction-recovery.msshawnp.workers.dev/)
+
+**[trade-spend-data-diagnostic](https://github.com/MsShawnP/trade-spend-data-diagnostic)**
+Trade spend diagnostic for a specialty food brand spending 17.3% of revenue on planned trade and losing an additional 4.0% to operational deductions — 21.3% all-in. A 7-tab Excel workbook that a CEO can open cold: executive pulse with waterfall chart and addressable improvement headline, leak diagnostic with double-dip detection, promo ROI with adjustable pre/post windows, retailer risk with net-net effective margin, full deduction ledger with translated reason codes, and methodology documentation. Interactive input cells let users adjust recovery rates, promo windows, and what-if trade rates and watch dependent values recalculate. Built on the Cinderhaven Data Platform (Postgres). Python + openpyxl.
 
 **[short-ship-cost](https://github.com/MsShawnP/short-ship-cost)**
 Interactive analysis tool that quantifies the full cost of short-shipping orders for a specialty food brand operating make-to-order with no inventory buffer. Calculates eight cost dimensions — lost revenue, OTIF fines, chargebacks, deauthorization, DTC cancellations, margin leakage, distributor returns, and triage labor — from the gap between original orders and what actually shipped. Parameter panel lets users adjust fine rates, thresholds, and margins and watch costs recalculate live. Buffer simulation shows cost recovery at increasing fill rates, including the deauthorization cliff at 90%. Exportable Economist-style PDF via print CSS. Built on synthetic order data against the Cinderhaven Provisions dataset. React + Python, hosted on Cloudflare Pages.
@@ -44,9 +47,14 @@ Interactive analysis tool that quantifies the full cost of short-shipping orders
 ### Demonstrations
 
 **[product-data-audit-demo](https://github.com/MsShawnP/product-data-audit-demo)**
-SQL diagnostic query library and fast HTML audit report that feeds the full product data readiness audit above. 53 queries covering GTIN/UPC validation, missing fields, retailer readiness, and chargeback analysis. Built against the Cinderhaven Provisions dataset. SQL + Python.
+SQL diagnostic query library and fast HTML audit report that feeds the full product data readiness audit above. 53 queries covering GTIN/UPC validation, missing fields, retailer readiness, and chargeback analysis. Built against the Cinderhaven Data Platform (Postgres). SQL + Python.
 
 ### Data Quality Tools
+
+**[edi-preflight](https://github.com/MsShawnP/edi-preflight)**
+Free web tool for specialty food brands doing EDI by hand. Parses inbound 850 Purchase Orders into structured data with CSV/PDF export, and validates outbound 856 Advance Ship Notices against retailer-specific specs with severity-tagged findings and chargeback-dollar attribution. Supports Walmart, Amazon, UNFI, KeHE, and Costco. Stateless — no data stored. Python + FastAPI + HTMX, hosted on Fly.io.
+
+[Try it live →](https://edi-preflight.fly.dev)
 
 **[gtin-validator](https://github.com/MsShawnP/gtin-validator)**
 Product data validation tool for specialty food brands preparing for national retail. Validates GTINs against GS1 standards with retailer-specific context (Walmart, Costco, UNFI, 1WorldSync), generates branded PDF reports, and includes a prioritized fix roadmap, case GTIN-14 generator, and product data completeness analysis. Built in Python + Streamlit.
@@ -59,10 +67,13 @@ Python CLI that audits Excel files for mixed formats, misused fields, placeholde
 **[field-story-scorer](https://github.com/MsShawnP/field-story-scorer)**
 Python CLI that scores every column in an Excel file across five data quality dimensions. Includes strict cell-level type detection that catches mixed-type columns pandas silently coerces.
 
-### Synthetic Datasets
+### Data Infrastructure
+
+**[cinderhaven-data-platform](https://github.com/MsShawnP/cinderhaven-data-platform)**
+Modern data platform for the Cinderhaven Provisions portfolio. Postgres + dbt + Dagster pipeline covering 23 source tables, 34 transformation models, and 132 data quality tests. Ingests from the generation layer, transforms raw → staging → marts, and serves as the analytical source of truth for all portfolio projects above. Hosted on Fly.io. Python + dbt + Dagster + PostgreSQL.
 
 **[cinderhaven-data](https://github.com/MsShawnP/cinderhaven-data)**
-The shared dataset behind the Cinderhaven Provisions portfolio. A fictional ~$25M specialty food brand with 90 SKUs, ~1.19M rows of weekly scan data, and deliberate data-quality defects that cause every downstream problem in the dataset — chargebacks, slow launches, delisted SKUs. Includes the full generation pipeline and validation scripts. SQLite + Python.
+The generation layer for the Cinderhaven Provisions portfolio dataset. A fictional ~$25M specialty food brand with 90 SKUs, ~1.19M rows of weekly scan data, and deliberate data-quality defects that cause every downstream problem in the dataset — chargebacks, slow launches, delisted SKUs. Includes the full generation pipeline and validation scripts. The data platform ingests this SQLite database into Postgres. SQLite + Python.
 
 ### Due Diligence
 
@@ -77,7 +88,7 @@ HarvardX coursework in data science and Python/ML. Harvard Business School Onlin
 
 ## Tools
 
-Python · SQL · R · React · Shiny · Streamlit · Quarto · Excel (the serious kind) · SQLite · Plotly · pandas · GitHub Pages · Cloudflare Pages · VS Code · Claude Code · Netlify
+Python · SQL · R · React · Dash · Shiny · Streamlit · Quarto · Excel (the serious kind) · PostgreSQL · dbt · Dagster · SQLite · Plotly · pandas · FastAPI · Fly.io · Cloudflare Pages · GitHub Pages · VS Code · Claude Code
 
 ## How I Work
 

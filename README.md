@@ -93,7 +93,7 @@ HarvardX coursework in data science and Python/ML. Harvard Business School Onlin
 
 ## Tools
 
-Python · SQL · R · React · Dash · Shiny · Quarto · Excel (the serious kind) · PostgreSQL · dbt · Dagster · SQLite · Plotly · pandas · FastAPI · Fly.io · Cloudflare Pages · Render · GitHub Pages · VS Code · Claude Code
+Python · SQL · R · React · Dash · Shiny · Quarto · Excel · PostgreSQL · dbt · Dagster · SQLite · Plotly · pandas · FastAPI · Fly.io · Cloudflare Pages · Render · GitHub Pages · VS Code · Claude Code
 
 ## How I Work
 

@@ -57,9 +57,9 @@ Free web tool for specialty food brands doing EDI by hand. Parses inbound 850 Pu
 Try it live → https://edi-preflight.fly.dev
 
 **[gtin-validator](https://github.com/MsShawnP/gtin-validator)**
-Product data validation tool for specialty food brands preparing for national retail. Validates GTINs against GS1 standards with retailer-specific context (Walmart, Costco, UNFI, 1WorldSync), generates branded PDF reports, and includes a prioritized fix roadmap, case GTIN-14 generator, and product data completeness analysis. Built in Python + Streamlit.
+Product data validation tool for specialty food brands preparing for national retail. Validates GTINs against GS1 standards with retailer-specific context (Walmart, Costco, UNFI, 1WorldSync), generates branded PDF reports, and includes a prioritized fix roadmap, case GTIN-14 generator, and product data completeness analysis. FastAPI + React, hosted on Render.
 
-Try it live → https://msshawnp-gtin-validator-app-yz0mxn.streamlit.app/
+Try it live → https://gtin-validator.onrender.com
 
 **[data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)**
 Python CLI that audits Excel files for mixed formats, misused fields, placeholder floods, and phantom duplicates. Outputs HTML, Excel, and PDF reports.

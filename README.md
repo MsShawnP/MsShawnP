@@ -1,11 +1,8 @@
 # Shawn Phillips
 **Principal Consultant, Lailara LLC · KY**
 
-Most of my work happens in client systems and private repos. The public repos here are portfolio pieces, not my day-to-day output.
-
-I build the data layer that operations actually runs on — validation, reporting, and decision frameworks for the systems upstream of fulfillment, payments, and analytics. Twenty-five years across incentive fulfillment, product master data, and operational reporting. The last twenty as a fractional Director of Operations and Solutions Architect for an incentive fulfillment platform, where data quality is the difference between a client renewal and an escalation.
-
-Now building a second practice line: decision frameworks and tooling for specialty food brands scaling into national retail.
+I work on the data layer between raw records and the systems that depend on them — validation, reporting, and decision tools for specialty food brands and CPG companies. Product data audits, quality engineering, and the infrastructure that keeps data clean after the audit is done.
+The repos below are portfolio pieces. Different problems, different tools. The common thread: data that hasn't been cleaned, validated, or interpreted yet — and a deliverable built for someone who needs to act on what's in it.
 
 ## What I Do
 

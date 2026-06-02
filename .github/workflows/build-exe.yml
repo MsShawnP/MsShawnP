@@ -1,0 +1,55 @@
+name: Build SPL-290X Windows exe
+
+# Builds the portable, single-file Windows executable on a Windows runner
+# (PyInstaller cannot cross-compile, so this must run on windows-latest).
+#
+# - Every push / manual run: builds and uploads the exe as a downloadable
+#   Actions artifact.
+# - Pushing a tag like `v1.0`: also publishes a GitHub Release with the exe
+#   attached, giving a public direct-download link you can share.
+
+on:
+  push:
+    branches:
+      - "claude/spl290x-calculator-app-j5mub"
+      - "main"
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed to create a Release on tag pushes
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run self-test (must pass before building)
+        run: python spl290x.py --selftest
+
+      - name: Install PyInstaller
+        run: python -m pip install --upgrade pyinstaller
+
+      - name: Build portable onefile exe
+        run: pyinstaller --onefile --windowed --name SPL-290X spl290x.py
+
+      - name: Upload exe as build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SPL-290X-exe
+          path: dist/SPL-290X.exe
+          if-no-files-found: error
+
+      - name: Attach exe to GitHub Release (tagged builds only)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/SPL-290X.exe

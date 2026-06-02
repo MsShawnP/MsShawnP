@@ -40,7 +40,7 @@ No login, no cost. Built for the founder who needs an answer before the engageme
 - **[datascope](https://github.com/MsShawnP/datascope)** — data profiling and quality scoring for tabular datasets. `pip install datascope-dq`
 - **[data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)** — audits Excel files for the data-quality issues that show up in real consulting engagements. `pip install data-hygiene-auditor`
 
-## Different buyer
+## Due diligence
 
 - **[online-retail-analysis](https://github.com/MsShawnP/online-retail-analysis)** — acquisition due diligence on the UCI Online Retail Dataset, reframed as commercial DD. [dd.lailarallc.com](https://dd.lailarallc.com)
 

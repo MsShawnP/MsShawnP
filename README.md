@@ -4,9 +4,9 @@
 
 I do data hygiene and analytics consulting for specialty food brands scaling into national retail. Most of my work starts the same way: a brand is growing, the data layer that got them here can't support where they're going, and the cost of that gap is showing up as chargebacks, deduction losses, failed submissions, or margin they can't explain.
 
-The repos below are worked examples of that consulting practice. Each one uses synthetic data from [Cinderhaven Provisions](https://github.com/MsShawnP/cinderhaven-data) — a fictional ~$25M brand — with real methodology and a deliverable built for someone who needs to act on what's in it.
+The repos below are worked examples of that consulting practice. Each one uses synthetic data from Cinderhaven Provisions — a fictional ~$25M brand — with real methodology and a deliverable built for someone who needs to act on what's in it.
 
-I organize the work around [ten operating decisions](https://lailarallc.com/the-ten-decisions) that growing brands tend to make by reflex or not at all. The table below maps each repo to the decision it addresses.
+I organize the work around [ten operating decisions](https://lailarallc.com/the-ten-decisions) ([framework repo](https://github.com/MsShawnP/the-ten-decisions)) that growing brands tend to make by reflex or not at all. The table below maps each repo to the decision it addresses.
 
 ## Engagement case studies
 
@@ -28,7 +28,7 @@ The trade spend diagnostic ([trade-spend-data-diagnostic](https://github.com/MsS
 
 No login, no cost. Built for the founder who needs an answer before the engagement starts.
 
-- **[Retail Readiness Scorecard](https://msshawnp.github.io/retail-readiness-scorecard/)** — 12–18 questions, Red/Yellow/Green across eight dimensions, downloadable PDF
+- **[Retail Readiness Scorecard](https://msshawnp.github.io/retail-readiness-scorecard/)** — 12-18 questions, Red/Yellow/Green across eight dimensions, downloadable PDF
 - **[GTIN Validator](https://gtin.lailarallc.com)** — product data validation against GS1 standards with retailer-specific context
 - **[EDI Preflight](https://edi.lailarallc.com)** — parse 850s, validate 856s against Walmart/Amazon/UNFI/KeHE/Costco specs
 - **[Cost of Saying Yes](https://launch-cost.lailarallc.com)** — month-by-month cash flow model for a major retailer launch
@@ -39,6 +39,15 @@ No login, no cost. Built for the founder who needs an answer before the engageme
 
 - **[datascope](https://github.com/MsShawnP/datascope)** — data profiling and quality scoring for tabular datasets. `pip install datascope-dq`
 - **[data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)** — audits Excel files for the data-quality issues that show up in real consulting engagements. `pip install data-hygiene-auditor`
+
+## In development
+
+Active research repos — methodology and models are functional, live deployments pending.
+
+- **[chargeback-prediction-model](https://github.com/MsShawnP/chargeback-prediction-model)** — predicts which retailer deductions are likely to escalate and which are recoverable
+- **[otif-blind-spot](https://github.com/MsShawnP/otif-blind-spot)** — reconciles internal fulfillment metrics against retailer scorecards
+- **[production-demand-forecast](https://github.com/MsShawnP/production-demand-forecast)** — S&OP demand planning with seasonal patterns and capacity constraints
+- **[competitive-shelf-intelligence](https://github.com/MsShawnP/competitive-shelf-intelligence)** — tracks pricing, placement, and assortment across retailers
 
 ## Due diligence
 
@@ -54,4 +63,4 @@ The full story is at [lailarallc.com/about](https://lailarallc.com/about).
 
 Fractional engagements. Fixed-fee or monthly retainer. The [portfolio](https://lailarallc.com/work) has the full set of case studies, tools, and methodology.
 
-[Get in touch →](https://lailarallc.com/contact)
+[Get in touch](https://lailarallc.com/contact)

@@ -24,6 +24,15 @@ I organize the work around [ten operating decisions](https://lailarallc.com/the-
 
 The trade spend diagnostic ([trade-spend-data-diagnostic](https://github.com/MsShawnP/trade-spend-data-diagnostic)) delivers as a 7-tab Excel workbook rather than a web app.
 
+### Predictive & operational models
+
+| Decision | Repo | Live demo |
+|---|---|---|
+| Deduction Recovery | [chargeback-prediction-model](https://github.com/MsShawnP/chargeback-prediction-model) | |
+| Fulfillment & OTIF | [otif-blind-spot](https://github.com/MsShawnP/otif-blind-spot) | |
+| Demand Planning | [production-demand-forecast](https://github.com/MsShawnP/production-demand-forecast) | |
+| Competitive Intelligence | [competitive-shelf-intelligence](https://github.com/MsShawnP/competitive-shelf-intelligence) | |
+
 ## Free tools
 
 No login, no cost. Built for the founder who needs an answer before the engagement starts.
@@ -39,15 +48,6 @@ No login, no cost. Built for the founder who needs an answer before the engageme
 
 - **[datascope](https://github.com/MsShawnP/datascope)** — data profiling and quality scoring for tabular datasets. `pip install datascope-dq`
 - **[data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)** — audits Excel files for the data-quality issues that show up in real consulting engagements. `pip install data-hygiene-auditor`
-
-## In development
-
-Active research repos — methodology and models are functional, live deployments pending.
-
-- **[chargeback-prediction-model](https://github.com/MsShawnP/chargeback-prediction-model)** — predicts which retailer deductions are likely to escalate and which are recoverable
-- **[otif-blind-spot](https://github.com/MsShawnP/otif-blind-spot)** — reconciles internal fulfillment metrics against retailer scorecards
-- **[production-demand-forecast](https://github.com/MsShawnP/production-demand-forecast)** — S&OP demand planning with seasonal patterns and capacity constraints
-- **[competitive-shelf-intelligence](https://github.com/MsShawnP/competitive-shelf-intelligence)** — tracks pricing, placement, and assortment across retailers
 
 ## Due diligence
 

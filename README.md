@@ -1,66 +1,74 @@
-# Shawn Phillips
+# Hey, I'm Shawn.
 
-**Principal Consultant, [Lailara LLC](https://lailarallc.com)**
+I'm the Principal Consultant at **[Lailara LLC](https://lailarallc.com)** — data hygiene and
+analytics for specialty food and CPG brands scaling into national retail. I find the money
+leaking through product data, deductions, and trade spend, and tell you exactly which field
+it's leaking from.
 
-I do data hygiene and analytics consulting for specialty food brands scaling into national retail. Most of my work starts the same way: a brand is growing, the data layer that got them here can't support where they're going, and the cost of that gap is showing up as chargebacks, deduction losses, failed submissions, or margin they can't explain.
+I'm not a software engineer by training. Twenty-five years of operations and incentive-fulfillment
+work taught me to build tools when the thing I need doesn't exist — and to publish them so other
+people can use them too.
 
-The repos below are worked examples of that consulting practice. Each one uses synthetic data from Cinderhaven Provisions — a fictional ~$25M brand — with real methodology and a deliverable built for someone who needs to act on what's in it.
+---
 
-I organize the work around [ten operating decisions](https://lailarallc.com/the-ten-decisions) ([framework repo](https://github.com/MsShawnP/the-ten-decisions)) that growing brands tend to make by reflex or not at all. The table below maps each repo to the decision it addresses.
+## Install with pip
 
-## Engagement case studies
+- **[data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)** — A linter for your
+  data. Audits Excel/CSV files for mixed formats, misused fields, placeholder floods, and phantom
+  duplicates; outputs HTML, Excel, and PDF reports.
+  `pip install data-hygiene-auditor` · [PyPI](https://pypi.org/project/data-hygiene-auditor/)
+- **[datascope](https://github.com/MsShawnP/datascope)** — Profiles every column in a workbook and
+  scores it across five data-quality dimensions, with strict cell-level type detection that catches
+  what pandas silently coerces.
+  `pip install datascope-dq` · [PyPI](https://pypi.org/project/datascope-dq/)
 
-| Decision | Repo | Live demo |
-|---|---|---|
-| Product Data Health | [product-data-health-audit](https://github.com/MsShawnP/product-data-health-audit) | [audit.lailarallc.com](https://audit.lailarallc.com) |
-| Deduction Recovery | [retailer-deduction-recovery](https://github.com/MsShawnP/retailer-deduction-recovery) | [deductions.lailarallc.com](https://deductions.lailarallc.com) |
-| Trade Spend Leakage | [trade-spend-leakage](https://github.com/MsShawnP/trade-spend-leakage) | |
-| Fulfillment & OTIF | [short-ship-cost](https://github.com/MsShawnP/short-ship-cost) | [shortships.lailarallc.com](https://shortships.lailarallc.com) |
-| Channel Profitability | [channel-profitability-analysis](https://github.com/MsShawnP/channel-profitability-analysis) | [channels.lailarallc.com](https://channels.lailarallc.com) |
-| Capital Allocation | [where-the-money-comes-from](https://github.com/MsShawnP/where-the-money-comes-from) | [capital.lailarallc.com](https://capital.lailarallc.com) |
-| Revenue Lifecycle | [contract-to-cash](https://github.com/MsShawnP/contract-to-cash) | [cash.lailarallc.com](https://cash.lailarallc.com) |
-| SKU Rationalization | [sku-rationalization-framework](https://github.com/MsShawnP/sku-rationalization-framework) | [sku.lailarallc.com](https://sku.lailarallc.com) |
-| Velocity & Decisions | [retail-velocity-decision-tool](https://github.com/MsShawnP/retail-velocity-decision-tool) | [velocity.lailarallc.com](https://velocity.lailarallc.com) |
+## Use in your browser — free, no login
 
-The trade spend diagnostic ([trade-spend-data-diagnostic](https://github.com/MsShawnP/trade-spend-data-diagnostic)) delivers as a 7-tab Excel workbook rather than a web app.
+- **[GTIN Validator](https://gtin.lailarallc.com)** — product data validated against GS1 standards
+  with retailer-specific context; branded PDF report with a fix roadmap
+- **[EDI Preflight](https://edi.lailarallc.com)** — checks 850s and 856s against retailer specs
+  (Walmart, Amazon, UNFI, KeHE, and more) before you submit
+- **[Retail Readiness Scorecard](https://lailarallc.com/scorecard)** — eight-dimension readiness
+  self-assessment for a retailer launch, ten minutes, PDF readout
+- **[Cost of Saying Yes](https://launch-cost.lailarallc.com)** — month-by-month cash model for a
+  major retailer launch, because revenue projections hide the trough
 
-### Predictive & operational models
+## Worked engagements (Cinderhaven Provisions)
 
-| Decision | Repo | Live demo |
-|---|---|---|
-| Deduction Recovery | [chargeback-prediction-model](https://github.com/MsShawnP/chargeback-prediction-model) | |
-| Fulfillment & OTIF | [otif-blind-spot](https://github.com/MsShawnP/otif-blind-spot) | |
-| Demand Planning | [production-demand-forecast](https://github.com/MsShawnP/production-demand-forecast) | |
-| Competitive Intelligence | [competitive-shelf-intelligence](https://github.com/MsShawnP/competitive-shelf-intelligence) | |
+Full analytical engagements on a synthetic $25M specialty food brand — the data is invented so the
+methodology can be shown end to end, and the dollar figures are real outputs of the pipelines.
+Highlights:
 
-## Free tools
+- **[product-data-health-audit](https://github.com/MsShawnP/product-data-health-audit)** — every
+  chargeback traced to the product-master field that caused it ($458K/yr quantified)
+- **[retailer-deduction-recovery](https://github.com/MsShawnP/retailer-deduction-recovery)** —
+  15,900 deductions traced through five compounding failures; recovery simulation 16% → 65%
+- **[cinderhaven-data-platform](https://github.com/MsShawnP/cinderhaven-data-platform)** — the data
+  platform underneath it all: source-to-mart pipelines, quality testing, orchestration, lineage
+  (Python · Postgres · dbt · Dagster)
 
-No login, no cost. Built for the founder who needs an answer before the engagement starts.
+The rest — trade spend forensics, OTIF reconciliation, SKU scoring, channel profitability, demand
+planning, shelf intelligence — lives at **[lailarallc.com/work](https://lailarallc.com/work)**.
 
-- **[Retail Readiness Scorecard](https://msshawnp.github.io/retail-readiness-scorecard/)** — 12-18 questions, Red/Yellow/Green across eight dimensions, downloadable PDF
-- **[GTIN Validator](https://gtin.lailarallc.com)** — product data validation against GS1 standards with retailer-specific context
-- **[EDI Preflight](https://edi.lailarallc.com)** — parse 850s, validate 856s against Walmart/Amazon/UNFI/KeHE/Costco specs
-- **[Cost of Saying Yes](https://launch-cost.lailarallc.com)** — month-by-month cash flow model for a major retailer launch
-- **[Monday Morning Report](https://github.com/MsShawnP/monday-morning-report)** — weekly Excel template, three numbers, scaled to your revenue tier
-- **[Data Differences Tool](https://diff.lailarallc.com)** — compare two spreadsheets, get a clear report of what changed
+## Consultant tooling
 
-## Open-source libraries
-
-- **[datascope](https://github.com/MsShawnP/datascope)** — data profiling and quality scoring for tabular datasets. `pip install datascope-dq`
-- **[data-hygiene-auditor](https://github.com/MsShawnP/data-hygiene-auditor)** — audits Excel files for the data-quality issues that show up in real consulting engagements. `pip install data-hygiene-auditor`
-
-## Due diligence
-
-- **[online-retail-analysis](https://github.com/MsShawnP/online-retail-analysis)** — acquisition due diligence on the UCI Online Retail Dataset, reframed as commercial DD. [dd.lailarallc.com](https://dd.lailarallc.com)
-
-## Background
-
-Twenty-five years in incentive fulfillment and operational data. Twenty as fractional Director of Operations and Chief Solutions Architect for an incentive fulfillment platform. HarvardX coursework in data science. Harvard Business School Online certificates in strategy execution and digital marketing strategy.
-
-The full story is at [lailarallc.com/about](https://lailarallc.com/about).
+- **[item-setup-form-preflight](https://github.com/MsShawnP/item-setup-form-preflight)** — typed
+  validation against codified retailer schemas; catches new-item rejections before submission
+- **[dimension-weight-integrity](https://github.com/MsShawnP/dimension-weight-integrity)** —
+  dim-weight validation for the defects behind freight chargebacks
+- **[internal-data-anonymizer](https://github.com/MsShawnP/internal-data-anonymizer)** — guided
+  column-by-column anonymization with deterministic, format-preserving mappings
+- **[data-differences-tool](https://github.com/MsShawnP/data-differences-tool)** — diff two tabular
+  files: rows added, removed, modified, with before/after values
 
 ## How I work
 
-Fractional engagements. Fixed-fee or monthly retainer. The [portfolio](https://lailarallc.com/work) has the full set of case studies, tools, and methodology.
+Solo developer, Claude Code as pair programmer, phase-gated workflow with commit gates — packaged
+at [claude-solo-dev-workflow](https://github.com/MsShawnP/claude-solo-dev-workflow).
 
-[Get in touch](https://lailarallc.com/contact)
+**Stack:** Python · R · SQL · Quarto · dbt · Postgres · React · Power BI · Excel (the serious kind)
+
+---
+
+📍 Kentucky · [lailarallc.com](https://lailarallc.com) ·
+[LinkedIn](https://www.linkedin.com/in/shawn-phillips-b383b3149)

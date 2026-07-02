@@ -40,9 +40,11 @@ methodology can be shown end to end, and the dollar figures are real outputs of 
 Highlights:
 
 - **[product-data-health-audit](https://github.com/MsShawnP/product-data-health-audit)** — every
-  chargeback traced to the product-master field that caused it ($458K/yr quantified)
+  chargeback traced to the product-master field that caused it (~$93K/yr in data-defect
+  chargebacks quantified)
 - **[retailer-deduction-recovery](https://github.com/MsShawnP/retailer-deduction-recovery)** —
-  15,900 deductions traced through five compounding failures; recovery simulation 16% → 65%
+  16,917 deductions traced through five compounding failures; ~42% win rate per disputed
+  dollar, but two-thirds of deductions are never filed
 - **[cinderhaven-data-platform](https://github.com/MsShawnP/cinderhaven-data-platform)** — the data
   platform underneath it all: source-to-mart pipelines, quality testing, orchestration, lineage
   (Python · Postgres · dbt · Dagster)

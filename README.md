@@ -20,9 +20,10 @@ browser tools, worked analytical engagements, and the internal tooling I consult
   data. Audits Excel/CSV files for mixed formats, misused fields, placeholder floods, and phantom
   duplicates; outputs HTML, Excel, and PDF reports.
   `pip install data-hygiene-auditor` · [PyPI](https://pypi.org/project/data-hygiene-auditor/)
-- **[datascope](https://github.com/MsShawnP/datascope)** — Profiles every column in a workbook and
-  scores it across five data-quality dimensions, with strict cell-level type detection that catches
-  what pandas silently coerces.
+- **[datascope](https://github.com/MsShawnP/datascope)** — Python CLI that profiles every column in an
+  Excel file, flags hidden data-quality problems (mixed types, sentinel values, missing data,
+  cardinality anomalies) in plain English, and outputs PDF, HTML, JSON, or annotated-Excel reports.
+  Includes strict cell-level type detection that catches mixed-type columns pandas silently coerces.
   `pip install datascope-dq` · [PyPI](https://pypi.org/project/datascope-dq/)
 
 ## Use in your browser — free, no login

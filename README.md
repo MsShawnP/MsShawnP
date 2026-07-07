@@ -5,9 +5,12 @@ analytics for specialty food and CPG brands scaling into national retail. I find
 leaking through product data, deductions, and trade spend, and tell you exactly which field
 it's leaking from.
 
-I'm not a software engineer by training. Twenty-five years of operations and incentive-fulfillment
-work taught me to build tools when the thing I need doesn't exist — and to publish them so other
-people can use them too.
+I'm not a software engineer by training. Twenty-five years of operations and
+incentive-fulfillment work taught me to build tools when the thing I need doesn't exist —
+and to publish them so other people can use them too.
+
+Everything below falls into four buckets: Python packages you can `pip install`, free
+browser tools, worked analytical engagements, and the internal tooling I consult with.
 
 ---
 
@@ -65,8 +68,8 @@ planning, shelf intelligence — lives at **[lailarallc.com/work](https://lailar
 
 ## How I work
 
-Solo developer, Claude Code as pair programmer, phase-gated workflow with commit gates — packaged
-at [claude-solo-dev-workflow](https://github.com/MsShawnP/claude-solo-dev-workflow).
+Solo developer, Claude Code as pair programmer, phase-gated workflow with commit gates —
+packaged at [claude-solo-dev-workflow](https://github.com/MsShawnP/claude-solo-dev-workflow).
 
 **Stack:** Python · R · SQL · Quarto · dbt · Postgres · React · Power BI · Excel (the serious kind)
 

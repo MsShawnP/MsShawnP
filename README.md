@@ -8,7 +8,7 @@ I'm not a software engineer by training. Twenty-five years of operations and inc
 work taught me to build the tool when the thing I need doesn't exist — and to publish it so other
 people can use it too.
 
-**41 public tools. 31 of them running live in your browser right now.** Two on PyPI. No login, no
+**41 public tools. 32 of them running live in your browser right now.** Two on PyPI. No login, no
 demo request, no gate.
 
 ---
@@ -48,7 +48,7 @@ Deductions, trade spend, and the gap between invoiced and collected.
 | **[Channel Profitability Analysis](https://github.com/MsShawnP/channel-profitability-analysis)** | Five-layer cost waterfall. Contribution margin across 10 retail, distributor, and DTC channels. | [channels.lailarallc.com](https://channels.lailarallc.com) |
 | **[Where the Money Comes From](https://github.com/MsShawnP/where-the-money-comes-from)** | Which channel actually pays after all deductions — and is the capital allocation wrong? React + D3. | [capital.lailarallc.com](https://capital.lailarallc.com) |
 | **[Trade Spend Data Diagnostic](https://github.com/MsShawnP/trade-spend-data-diagnostic)** | 7-tab Excel: executive pulse, leak diagnostic, promo ROI, retailer risk, deduction ledger. | — |
-| **[Remittance Stub Parsing](https://github.com/MsShawnP/remittance-stub-parsing)** | Turns unstructured remittance stubs into reconcilable line-item data. | — |
+| **[Remittance Stub Parsing](https://github.com/MsShawnP/remittance-stub-parsing)** | Parses Walmart, Costco, UNFI, and KeHE remittance PDFs into a reconciled deduction ledger, flagging what to dispute before the window closes. | [remittance.lailarallc.com](https://remittance.lailarallc.com) |
 
 ## Sales penetration series
 

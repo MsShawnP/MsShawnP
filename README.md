@@ -120,4 +120,4 @@ Every tool above is built on realistic CPG data shapes and solves a problem I hi
 engagement. If one of them describes your week, that's usually a good sign we should talk.
 
 **[lailarallc.com](https://lailarallc.com)** · [Selected work](https://lailarallc.com/work) ·
-[LinkedIn](https://www.linkedin.com/in/shawn-phillips-b383b3149) · shawn@lailarallc.com
+[LinkedIn](https://www.linkedin.com/in/shawnphillipsdata) · shawn@lailarallc.com

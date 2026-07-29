@@ -19,6 +19,10 @@ demo request, no gate.
 
 Everything below is grouped by which of the three problems it solves.
 
+> **On the numbers below:** every figure comes from a modeled dataset built to realistic CPG
+> data shapes, not from client data. The failure modes are real — they are what I spent
+> twenty-five years handling in incentive fulfillment and operational data.
+
 ---
 
 # 1 · Data hygiene
@@ -116,8 +120,8 @@ The calls that cost real money when made by reflex instead of analysis.
 
 ---
 
-Every tool above is built on realistic CPG data shapes and solves a problem I hit in an actual
-engagement. If one of them describes your week, that's usually a good sign we should talk.
+Every tool above targets a failure mode I have spent twenty-five years dealing with in
+incentive fulfillment and operational data. If one of them describes your week, that's usually a good sign we should talk.
 
 **[lailarallc.com](https://lailarallc.com)** · [Selected work](https://lailarallc.com/work) ·
 [LinkedIn](https://www.linkedin.com/in/shawnphillipsdata) · shawn@lailarallc.com

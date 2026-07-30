@@ -14,8 +14,10 @@ I'm not a software engineer by training. Twenty-five years of operations and inc
 work taught me to build the tool when the thing I need doesn't exist — and to publish it so other
 people can use it too.
 
-**41 public tools. 32 of them running live in your browser right now.** Two on PyPI. No login, no
-demo request, no gate.
+**The tools below find the money: ~$380K/yr in recoverable deduction waste, $894K in
+three-year short-ship costs, a $1.35M deduction backlog, and a $6.7M gross-to-net gap —
+all traced to the field, form, or process that leaks it.** 41 public tools, 32 live in
+your browser right now, two on PyPI. No login, no demo request, no gate.
 
 Everything below is grouped by which of the three problems it solves.
 

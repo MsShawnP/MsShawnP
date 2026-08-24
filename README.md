@@ -16,7 +16,7 @@ people can use it too.
 
 **The tools below find the money: ~$380K/yr in recoverable deduction waste, $894K in
 three-year short-ship costs, a $1.35M deduction backlog, and a $6.7M gross-to-net gap —
-all traced to the field, form, or process that leaks it.** 41 public tools, 32 live in
+all traced to the field, form, or process that leaks it.** 42 public tools, 33 live in
 your browser right now, two on PyPI. No login, no demo request, no gate.
 
 Everything below is grouped by which of the three problems it solves.
@@ -76,6 +76,7 @@ Deductions, trade spend, and the gap between invoiced and collected.
 | **[Retailer Deduction Recovery](https://github.com/MsShawnP/retailer-deduction-recovery)** | 16,917 deductions traced through five compounding failures. ~42% win rate per disputed dollar — but two-thirds are never filed. | [deductions.lailarallc.com](https://deductions.lailarallc.com) |
 | **[Chargeback Prediction Model](https://github.com/MsShawnP/chargeback-prediction-model)** | Predicts which retailer deductions escalate and which are recoverable. Python + scikit-learn. | [chargeback.lailarallc.com](https://chargeback.lailarallc.com) |
 | **[Trade Spend Leakage](https://github.com/MsShawnP/trade-spend-leakage)** | Forensic detection of double-funded promos, phantom promos, and rate discrepancies. Reranks retailers by net revenue. | [trade-spend.lailarallc.com](https://trade-spend.lailarallc.com) |
+| **[Lift Math](https://github.com/MsShawnP/cinderhaven-promo-incrementality)** | Trade-promotion incrementality with the receipts: two blind baselines scored against quarantined ground truth — the error shown by regime, including where it's large. | [liftmath.lailarallc.com](https://liftmath.lailarallc.com) |
 | **[Contract to Cash](https://github.com/MsShawnP/contract-to-cash)** | Traces where money leaks between invoice and cash receipt. For every dollar invoiced, 87 cents arrived. | [cash.lailarallc.com](https://cash.lailarallc.com) |
 | **[Channel Profitability Analysis](https://github.com/MsShawnP/channel-profitability-analysis)** | Five-layer cost waterfall. Contribution margin across 10 retail, distributor, and DTC channels. | [channels.lailarallc.com](https://channels.lailarallc.com) |
 | **[Where the Money Comes From](https://github.com/MsShawnP/where-the-money-comes-from)** | Which channel actually pays after all deductions — and is the capital allocation wrong? React + D3. | [capital.lailarallc.com](https://capital.lailarallc.com) |

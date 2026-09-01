@@ -16,7 +16,7 @@ people can use it too.
 
 **The tools below find the money: ~$380K/yr in recoverable deduction waste, $894K in
 three-year short-ship costs, a $1.35M deduction backlog, and a $6.7M gross-to-net gap —
-all traced to the field, form, or process that leaks it.** 42 public tools, 33 live in
+all traced to the field, form, or process that leaks it.** 43 public tools, 34 live in
 your browser right now, two on PyPI. No login, no demo request, no gate.
 
 Everything below is grouped by which of the three problems it solves.

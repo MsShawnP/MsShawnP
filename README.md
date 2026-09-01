@@ -85,12 +85,13 @@ Deductions, trade spend, and the gap between invoiced and collected.
 
 ### Sales penetration
 
-Five ways to answer the same question: is growth real, or are we buying it?
+Six ways to answer the same question: is growth real, or are we buying it?
 
 | Tool | What it does | Live / install |
 |---|---|---|
 | **[SpinRate](https://github.com/lailarallc/spinrate-sales-penetration)** | Separates distribution gains from velocity gains. SPPD, ACV%, door counts. | [spinrate.lailarallc.com](https://spinrate.lailarallc.com) |
 | **[Void Finder](https://github.com/lailarallc/voidfinder-sales-penetration)** | Authorized but not scanning. Every void dollarized from comparable-store median velocity and ranked into a broker work list. | [voidfinder.lailarallc.com](https://voidfinder.lailarallc.com) |
+| **[Slot Math](https://github.com/lailarallc/slotmath-fair-share)** | Within-footprint fair share: authorized-slot share vs scan-dollar share per retailer × region — the over-shelved cells priced first, because the buyer finds them first. | [slotmath.lailarallc.com](https://slotmath.lailarallc.com) |
 | **[DoorMath](https://github.com/lailarallc/doormath-sales-penetration)** | Door counts, ACV%, TDP trends, and authorization gap analysis. | [doormath.lailarallc.com](https://doormath.lailarallc.com) |
 | **[Decompose](https://github.com/lailarallc/decompose-sales-penetration)** | Splits period-over-period sales change into households × frequency × spend per trip, reconciled to the exact delta with a Shapley allocation. | [decompose.lailarallc.com](https://decompose.lailarallc.com) |
 | **[Trial vs. Repeat](https://github.com/lailarallc/trial-vs-repeat)** | How many triers came back — and whether penetration growth is adoption or expensive sampling. | [leakybucket.lailarallc.com](https://leakybucket.lailarallc.com) |

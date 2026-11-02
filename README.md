@@ -21,8 +21,9 @@ your browser right now, two on PyPI. No login, no demo request, no gate.
 
 Everything below is grouped by the problem it solves.
 
-> **On the numbers below:** every figure comes from a modeled dataset built to realistic CPG
-> data shapes, not from client data. The failure modes are real — they are what I spent
+> **On the numbers below:** every figure comes from a modeled dataset built to realistic
+> synthetic data shapes for each lane: CPG retail and panel data, and channel-incentive
+> program data, not from client data. The failure modes are real — they are what I spent
 > twenty-five years handling in incentive fulfillment and operational data.
 
 ---

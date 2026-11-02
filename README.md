@@ -16,10 +16,10 @@ people can use it too.
 
 **The tools below find the money: ~$380K/yr in recoverable deduction waste, $888K in
 three-year short-ship costs, a $1.35M deduction backlog, and a $6.7M gross-to-net gap —
-all traced to the field, form, or process that leaks it.** 43 public tools, 34 live in
+all traced to the field, form, or process that leaks it.** 44 public tools, 35 live in
 your browser right now, two on PyPI. No login, no demo request, no gate.
 
-Everything below is grouped by which of the three problems it solves.
+Everything below is grouped by the problem it solves.
 
 > **On the numbers below:** every figure comes from a modeled dataset built to realistic CPG
 > data shapes, not from client data. The failure modes are real — they are what I spent
@@ -112,6 +112,17 @@ The calls that cost real money when made by reflex instead of analysis.
 | **[Production Demand Forecast](https://github.com/lailarallc/production-demand-forecast)** | S&OP planning: demand signals, capacity constraints, seasonal patterns. | [forecast.lailarallc.com](https://forecast.lailarallc.com) |
 | **[Competitive Shelf Intelligence](https://github.com/lailarallc/competitive-shelf-intelligence)** | Pricing, placement, and assortment tracked across retailers. | [competitive.lailarallc.com](https://competitive.lailarallc.com) |
 | **[Monday Morning Report](https://github.com/lailarallc/monday-morning-report)** | Three critical Monday numbers, tiered by growth stage. Python + openpyxl. | — |
+
+---
+
+# 4 · Rebate & incentive payouts
+
+**Did we pay what the rules say?** Incentive programs pay against rules, and almost nobody re-derives the
+payouts from them.
+
+| Tool | What it does | Live / install |
+|---|---|---|
+| **[Payout Math](https://github.com/lailarallc/rebate-payout-validator)** | Every payout re-derived from the program's own published rules — $17,597 approved that never should have been, $7,336 earned and never paid, each line reproducible by hand. | [payoutmath.lailarallc.com](https://payoutmath.lailarallc.com) |
 
 ---
 

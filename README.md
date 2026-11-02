@@ -16,14 +16,14 @@ people can use it too.
 
 **The tools below find the money: ~$380K/yr in recoverable deduction waste, $888K in
 three-year short-ship costs, a $1.35M deduction backlog, and a $6.7M gross-to-net gap —
-all traced to the field, form, or process that leaks it.** 44 public tools, 35 live in
+all traced to the field, form, or process that leaks it.** 45 public tools, 36 live in
 your browser right now, two on PyPI. No login, no demo request, no gate.
 
 Everything below is grouped by the problem it solves.
 
 > **On the numbers below:** every figure comes from a modeled dataset built to realistic
-> synthetic data shapes for each lane: CPG retail and panel data, and channel-incentive
-> program data, not from client data. The failure modes are real — they are what I spent
+> synthetic data shapes for each lane: CPG retail and panel data, channel-incentive
+> program data, and GA4-style web analytics data, not from client data. The failure modes are real — they are what I spent
 > twenty-five years handling in incentive fulfillment and operational data.
 
 ---
@@ -124,6 +124,17 @@ payouts from them.
 | Tool | What it does | Live / install |
 |---|---|---|
 | **[Payout Math](https://github.com/lailarallc/rebate-payout-validator)** | Every payout re-derived from the program's own published rules — $17,597 approved that never should have been, $7,336 earned and never paid, each line reproducible by hand. | [payoutmath.lailarallc.com](https://payoutmath.lailarallc.com) |
+
+---
+
+# 5 · Campaign & web analytics
+
+**Which campaigns actually worked?** Every return-on-spend figure rests on an attribution rule and on
+tracking data; these tools show both.
+
+| Tool | What it does | Live / install |
+|---|---|---|
+| **[Campaign Math](https://github.com/lailarallc/campaign-attribution-audit)** | Four transparent attribution rules on one synthetic GA4 quarter — 9 of 12 campaigns change rank with the rule, ROAS shown as a range, and the tracking-defect audit beside it, every number reproducible by hand. | [campaignmath.lailarallc.com](https://campaignmath.lailarallc.com) |
 
 ---
 

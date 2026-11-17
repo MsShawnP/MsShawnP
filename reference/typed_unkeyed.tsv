@@ -1,0 +1,13 @@
+# Typed figures this repo prints with no canon key (owner, 2026-11-15; plan U19, U22).
+# One row per figure per location. The platform's fleet check holds the row count to a ceiling that only
+# falls: give a figure a key (or stop printing it) and delete its row. listed=yes: the read map names it, and
+# U19 owes its key; listed=no: U22 works it down. Generated from the 2026-11-15 manifest pass.
+file_line	printed	exact_value	meaning	source	kind	listed
+README.md:106	$1.4M	1.4	thesis range low end, annual operational cost across the ten decisions ($M)	restates the-ten-decisions thesis range; platform CINDERHAVEN_CANONICAL.md:425	restatement	no
+README.md:106	$2.3M	2.3	thesis range high end, annual operational cost across the ten decisions ($M)	restates the-ten-decisions thesis range; platform CINDERHAVEN_CANONICAL.md:425	restatement	no
+README.md:17	~$380K/yr	379558.78	operational deduction waste (recoverable layer), trailing 365d through 2025-12-27	restates trade-spend-data-diagnostic op waste; platform canonical_values.yml trade.op_waste_annual.trailing_365d	restatement	no
+README.md:17	$888K	887699	short-ship cost, 3-year total 2023-2025	restates short-ship-cost total (3yr); platform CINDERHAVEN_CANONICAL.md:411	restatement	no
+README.md:18	$1.35M	1346815	deduction backlog, cross-channel all 9 trading partners, 36 months (16,917 rows)	restates retailer-deduction-recovery total backlog; platform CINDERHAVEN_CANONICAL.md:434	restatement	no
+README.md:18	$6.7M		gross-to-net gap, invoiced vs net received	restates contract-to-cash hero figure (contract-to-cash frontend/dist/index.html); exact not found in this repo	restatement	no
+README.md:77	~42%	41.80	deduction win rate per disputed dollar, all-time	restates retailer-deduction-recovery; platform CINDERHAVEN_CANONICAL.md:402	restatement	yes
+README.md:77	two-thirds	64.5	share of deduction rows never disputed (10,906 of 16,917)	restates retailer-deduction-recovery; platform CINDERHAVEN_CANONICAL.md:404	restatement	no

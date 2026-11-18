@@ -9,5 +9,4 @@ README.md:17	~$380K/yr	379558.78	operational deduction waste (recoverable layer)
 README.md:17	$888K	887699	short-ship cost, 3-year total 2023-2025	restates short-ship-cost total (3yr); platform CINDERHAVEN_CANONICAL.md:411	restatement	no
 README.md:18	$1.35M	1346815	deduction backlog, cross-channel all 9 trading partners, 36 months (16,917 rows)	restates retailer-deduction-recovery total backlog; platform CINDERHAVEN_CANONICAL.md:434	restatement	no
 README.md:18	$6.7M		gross-to-net gap, invoiced vs net received	restates contract-to-cash hero figure (contract-to-cash frontend/dist/index.html); exact not found in this repo	restatement	no
-README.md:77	~42%	41.80	deduction win rate per disputed dollar, all-time	restates retailer-deduction-recovery; platform CINDERHAVEN_CANONICAL.md:402	restatement	yes
 README.md:77	two-thirds	64.5	share of deduction rows never disputed (10,906 of 16,917)	restates retailer-deduction-recovery; platform CINDERHAVEN_CANONICAL.md:404	restatement	no
